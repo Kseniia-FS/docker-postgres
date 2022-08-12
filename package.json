@@ -1,0 +1,27 @@
+{
+    "name": "docker-postgres",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.js",
+    "scripts": {
+        "dev": "nodemon server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Kseniia-FS/docker-postgres.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Kseniia-FS/docker-postgres/issues"
+    },
+    "homepage": "https://github.com/Kseniia-FS/docker-postgres#readme",
+    "dependencies": {
+        "@nestjs/common": "^9.0.9",
+        "@nestjs/core": "^9.0.9",
+        "express": "^4.18.1",
+        "nodemon": "^2.0.19",
+        "pg": "^8.7.3",
+        "typescript": "^4.7.4"
+    }
+}
